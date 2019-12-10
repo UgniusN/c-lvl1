@@ -10,7 +10,13 @@ namespace App5
     {
         static void Main(string[] args)
         {
-            
+            string spalva = "niekas";
+            while (spalva != "meluoji")
+            {
+                Console.WriteLine("Kokia Jusu megstamiausias spalva?");
+                spalva = Console.ReadLine();
+                Console.WriteLine("Mano irgi!");
+            }
         }
     }
 }
