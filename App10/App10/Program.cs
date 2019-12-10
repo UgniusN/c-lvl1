@@ -10,9 +10,10 @@ namespace App10
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(-6+3*5);
-            Console.WriteLine((13-2)*7);
-            Console.WriteLine((5 + -2) + (20/10));
+            double a = 4;
+            double c = 3;
+            double b = a / c;
+            Console.WriteLine(b);
             Console.ReadLine();
         }
     }
