@@ -10,6 +10,9 @@ namespace App8
     {
         static void Main(string[] args)
         {
+            float a = 24 / 5;
+            Console.WriteLine(a.ToString("N5"));
+            Console.ReadLine();
         }
     }
 }
