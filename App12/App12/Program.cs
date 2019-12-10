@@ -10,6 +10,17 @@ namespace App12
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Iveskite skaiciu:");
+            String a = Console.ReadLine();
+            int b = Convert.ToInt32(a);
+            for (int i = 1; i <= 9; i++)
+            {
+                Console.Write(b);
+                Console.Write(" * {0}", i);
+                Console.Write(" = ");
+                Console.WriteLine(i * b);
+            }
+            Console.ReadLine();
         }
     }
 }
