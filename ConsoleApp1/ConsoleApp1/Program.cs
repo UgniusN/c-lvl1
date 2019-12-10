@@ -10,7 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            cout << "sveiki";
+            int a;
+            int b;
+            String c = "sveiki";
+            Console.WriteLine("LaBaS PaSaUlI");
         }
     }
 }
