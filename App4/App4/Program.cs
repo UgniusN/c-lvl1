@@ -11,6 +11,7 @@ namespace App4
         static void Main(string[] args)
         {
             string vardas = "";
+            String[] pavardes = { "audrius", "benas" };
             while (vardas != "stop")
             {
                 Console.WriteLine("Iveskite savo varda: ");
