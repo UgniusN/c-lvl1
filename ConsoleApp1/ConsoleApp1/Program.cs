@@ -13,7 +13,7 @@ namespace ConsoleApp1
             int a;
             int b;
             String c = "sveiki";
-            Console.WriteLine("LaBaS PaSaUlI");
+            Console.WriteLine("Iveskite savo varda");
         }
     }
 }
