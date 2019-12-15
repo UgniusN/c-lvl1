@@ -10,6 +10,17 @@ namespace APP_20
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Iveskite pirma skaiciu");
+            String a = Console.ReadLine();
+            int c = Convert.ToInt32(a);
+            Console.WriteLine("Iveskite antra skaiciu");
+            String b = Console.ReadLine();
+            int d = Convert.ToInt32(b);
+            c++;
+            d--;
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.Read();
         }
     }
 }
