@@ -10,6 +10,10 @@ namespace APP_22
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Iveskite teksta:");
+            String a = Console.ReadLine();
+            Console.WriteLine(String.IsNullOrEmpty(a));
+            Console.ReadLine();
         }
     }
 }
